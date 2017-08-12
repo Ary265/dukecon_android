@@ -70,6 +70,10 @@ include::src/07_deployment_view.adoc[]
 include::src/08_concepts.adoc[]
 
 <<<<
+// 8. Concepts
+include::src/09_technical_concepts.adoc[]
+
+<<<<
 // 9. Design Decisions
 include::src/09_design_decisions.adoc[]
 
