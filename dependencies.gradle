@@ -38,6 +38,7 @@ ext {
     kotlinLoggingVersion = '1.5.3'
     slf4jAndroidVersion = '1.7.25'
     circularViewVersion = '3.0.2'
+    androidJobVersion = '1.2.4'
 
     //Testing
     robolectricVersion = '3.4.2'
@@ -135,7 +136,9 @@ ext {
             roomRuntime       : "android.arch.persistence.room:runtime:${roomVersion}",
             roomCompiler      : "android.arch.persistence.room:compiler:${roomVersion}",
             roomRxJava        : "android.arch.persistence.room:rxjava2:${roomVersion}",
-            jodaTime          : "joda-time:joda-time:${jodaTimeVersion}"
+            jodaTime          : "joda-time:joda-time:${jodaTimeVersion}",
+            androidJob        : "com.evernote:android-job:${androidJobVersion}"
+
     ]
 
     cacheTestDependencies = [
